@@ -6,7 +6,7 @@ import os
 import json
 
 # 경로를 지정해주자.
-path = "/contents/dataset/FaceMaskDetection/"
+path = "./contents/dataset/FaceMaskDetection/"
 annot_path = os.path.join(path,"annotations")
 img_path = os.path.join(path,"images")
 label_path = os.path.join(path,"labels")
